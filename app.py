@@ -9,6 +9,18 @@ model = joblib.load("best_model.pkl")  # ✅ this ensures model is correct type
 # Title
 st.title("🌲 Forest Cover Type Prediction")
 
+# Intro / About Section
+st.markdown("""
+Welcome to the Forest Cover Prediction App!  
+This tool predicts the **forest cover type** (e.g., Spruce/Fir, Lodgepole Pine, etc.) based on various **geographical and environmental features**.
+
+### 📊 Model & Dataset
+- **Model Used:** Random Forest Classifier (tuned for accuracy)
+- **Dataset:** [UCI Forest CoverType Dataset](https://archive.ics.uci.edu/ml/datasets/covertype)  
+- **Use Case:** Helps in forest planning, conservation, and land management by automating the prediction of dominant vegetation types in mountainous regions of Colorado, USA.
+""")
+st.markdown("---")
+
 st.header("Enter Input Features")
 
 # Inputs for the main numeric features
