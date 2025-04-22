@@ -15,15 +15,14 @@ This project is a machine learning application that predicts the forest cover ty
 
 ## 📁 Project Structure
 
-| File/Folder                        | Description                                  |
-| ---------------------------------- | -------------------------------------------- |
-| `app.py`                           | Streamlit app for prediction                 |
-| `best_model.pkl`                   | Saved trained model                          |
-| `dataset.csv`                      | Dataset used for training                    |
-| `forestCover.ipynb`                | Jupyter notebook for training and evaluation |
-| `requirements.txt`                 | All required Python packages                 |
-| `Forest Cover Type Prediction.pdf` | Project report                               |
-| `.venv/`                           | Local virtual environment (ignored in Git)   |
+| File/Folder         | Description                                  |
+| ------------------- | -------------------------------------------- |
+| `app.py`            | Streamlit app for prediction                 |
+| `best_model.pkl`    | Saved trained model                          |
+| `dataset.csv`       | Dataset used for training                    |
+| `forestCover.ipynb` | Jupyter notebook for training and evaluation |
+| `requirements.txt`  | All required Python packages                 |
+| `.venv/`            | Local virtual environment (ignored in Git)   |
 
 ## 🧠 Model Details
 

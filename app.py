@@ -1,12 +1,13 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import joblib  # ✅ use joblib instead of pickle
+import joblib  # use joblib instead of pickle
 
 # Load the trained model
-model = joblib.load("best_model.pkl")  # ✅ this ensures model is correct type
+model = joblib.load("best_model.pkl")  #  this ensures model is correct type
 
 # Title
+st.set_page_config(page_title="Forest Cover Predictor", layout="centered")
 st.title("🌲 Forest Cover Type Prediction")
 st.markdown("---")
 
